@@ -1,0 +1,35 @@
+/*BODY*/
+body{background-color: #3f51b5}
+
+/*TABLE*/
+.table{
+	background-color:#5c6bc0; 
+	padding: 30px; 
+	display: table; 
+	margin: 50px auto; 
+	border-radius: 2px
+}
+
+/*BUTTONS*/
+.btn:hover{background-color: #303f9f;}
+td a.btn{
+	margin: 0;
+	background-color: #1a237e; 
+	font-size: 12px; 
+	border-radius: 2px
+}
+
+/*a{margin: 0px 1px auto;}*/
+.button a.btn{
+	display:table; 
+	background-color: #1a237e; 
+	border-radius: 2px; 
+	margin: 20px auto;
+    margin-bottom: 20px;
+   /* width: 45%;*/
+}
+.button a.btn:hover{background-color: #303f9f;}
+
+/*TEXT*/
+.tableTitle{font-size: 20px; color: #fff;}
+.nome{font-size: 20px; color: #000;}

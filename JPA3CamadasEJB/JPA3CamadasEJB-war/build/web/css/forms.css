@@ -1,0 +1,34 @@
+/*html{color: #3f51b5;}*/
+h5{margin-bottom: 20px; color: #fff;}
+h6{color: #fff;}
+body{background-color: #3f51b5;}
+
+form{
+	display: table;
+	background-color: #5c6bc0;
+	margin: 50px auto;
+    padding: 60px;
+    border-radius: 2px
+    /*max-width: 100%;*/
+}
+
+.input-field input[type=text]:focus + label{
+     color: #fff;
+ }
+ .input-field input[type=text]:focus {
+     border-bottom: 1px solid #fff;
+     box-shadow: 0 1px 0 0 #fff;
+}
+
+.input-field .prefix.active {
+     color: #fff;
+}
+
+button{margin: 20px 20px auto;}
+button.btn{background-color: #1a237e; border-radius: 2px}
+button.btn:hover{background-color: #303f9f;}
+.button .btn{display:table; background-color: #1a237e; margin: 0px auto; border-radius: 2px}
+.button .btn:hover{background-color: #303f9f;}
+a{margin: 20px 1px auto;}
+.btn{background-color: #1a237e; border-radius: 2px}
+.btn:hover{background-color: #303f9f;}
